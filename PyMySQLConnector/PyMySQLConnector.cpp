@@ -315,7 +315,6 @@ dict MyConnection::execute_stmt(char* sql_stmt, b_list key) {
 	return {};
 }
 
-void run(int a, int /* sqlType */) { }
 // 打印日志
 void MyConnection::printLog(string log, LogType type) {
 	if (this->isLog) {
